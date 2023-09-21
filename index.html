@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Tambahkan kode kalian di sini -->
+    <!-- bagian header -->
+    <header>
+      <div class="logo">
+        <img src="https://imgur.com/DF2ZgOi.png" width="100" />
+      </div>
+      <nav>
+        <ul>
+          <li class="navlink"><a href="#Masuk">Masuk</a></li>
+          <li class="navlink"><a href="#Tentang">Tentang</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- bagian utama -->
+<main>
+      <section class="section1">
+        <div class="row">
+          <div class="column">
+            <img src="https://imgur.com/rk4wMbi.png" />
+          </div>
+          <div class="column" class="kolom">
+            <h1>Bahaya tersembunyi Quarter Life Crisis!</h1>
+            <p id="description">
+              Quarter Life Crisis (QCL) merupakan periode seseorang yang
+              terjebak dalam kekhawatiran hidup hingga kehilangan jati diri.
+              Jika kondisi ini tidak diatasi dengan tepat akan berdampak pada
+              kesehatan mental. Tapi tenang, hal ini wajar dan sangat normal
+              dialami oleh semua orang. Karena itu
+              <strong>Terima Kisah</strong> hadir untuk berbagi curhat secara
+              anonim agar kamu dapat menceritakan kekhawatiranmu secara aman,
+              nyaman dan melegakan.
+            </p>
+            <!-- Bagian Form -->
+            <h2>Registrasi pengguna baru :
+    <div class= "container">
+    <form id="contact">
+      <input id="name" type="text" placeholder="Nama" /><br />
+      <input id="city" type="text" placeholder="City" /><br />
+      <input id="email" type="email" placeholder="Email" /><br />
+      <input id="zip-code" type="number" placeholder="Kode pos" />
+      <br />
+      <input id="status" type="checkbox" />
+      <label id="check">
+        Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+        dan telah sesuai
+      </label><br />
+      <button id="submit-form" type="submit">Submit</button>
+      <div id="warning"></div>
+    </form>
+    <div>
+          </div>
+        </div>
+      </section>
+
+<br/>
+
+      <section class="section2">
+        <div class="accordion">
+          <div><h1>Tentang TerimaKisah</h1></div>
+          <!-- span to target fix closing accordion -->
+          <span class="target-fix" id="accordion"></span>
+
+          <!-- First Accoridon Option -->
+          <div>
+            <!-- span to target fix accordion -->
+            <span class="target-fix" id="accordion1"></span>
+
+            <!-- Link to open accordion, hidden when open -->
+            <a href="#accordion1" id="open-accordion1" title="open">
+              Apa itu TerimaKisah?
+            </a>
+
+            <!-- Link to close accordion, hidden when closed -->
+            <a href="#accordion" id="close-accordion1" title="close">
+              Apa itu TerimaKisah?
+            </a>
+
+            <!-- Accorion content goes in this div -->
+            <div class="accordion-content">
+              <p class="p-accordion">
+                TerimaKisah adalah aplikasi web curhat anonim tentang
+                kekhawatiran yang dialami pada fase usia quarter life crisis.
+                Chat dapat berupa postingan secara publik, merespon melalui
+                komen dan chat secara langsung sesama pengguna. Walaupun anonim
+                pengguna wajib mengikuti aturan ya.
+              </p>
+            </div>
+          </div>
+
+          <!-- Second Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion2"></span>
+            <a href="#accordion2" id="open-accordion2" title="open">
+              Apakah ada batasan umur untuk menggunakan TerimaKisah?
+            </a>
+            <a href="#accordion" id="close-accordion2" title="close">
+              Apakah ada batasan umur untuk menggunakan TerimaKisah?
+            </a>
+            <div class="accordion-content">
+              <p class="p-accordion">
+                TerimaKisah utamanya diperuntukan untuk seseorang dalam fase QLC
+                yakni dalam rentang usian awal 20an - 30an namun dapat juga
+                digunakan untuk semua usia namun dalam aturan chat yang sesuai.
+              </p>
+            </div>
+          </div>
+
+          <!-- Third Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion3"></span>
+            <a href="#accordion3" id="open-accordion3" title="open">
+              Apa yang dapat di curahkan di aplikasi chat TerimaKisah?
+            </a>
+            <a href="#accordion" id="close-accordion3" title="close">
+              Apa yang dapat di curahkan di aplikasi chat TerimaKisah?
+            </a>
+            <div class="accordion-content">
+              <p class="p-accordion">
+                Seperti media sosial lainya namun TerimaKisah memfokuskan kita
+                pada masalah yang dialami selama fase QLC. Umumnya seseorang
+                dalam fase QLC mengkhawatirkan tentang masa depan, keluarga,
+                karir, pasangan, pendidikan, keuangan ataupun pertemanan. Kamu
+                dapat bertanya, memberikan dukungan ataupun berbagi pengalaman
+                dalam hal tersebut.
+              </p>
+            </div>
+          </div>
+
+          <!-- Forth Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion4"></span>
+            <a href="#accordion4" id="open-accordion2" title="open">
+              Apakah TerimaKisah bertujuan untuk menggantikan professional
+              medis?
+            </a>
+            <a href="#accordion" id="close-accordion4" title="close">
+              Apakah TerimaKisah bertujuan untuk menggantikan professional
+              medis?
+            </a>
+            <div class="accordion-content">
+              <p class="p-accordion">
+                Tentu saja tidak, TerimaKisah memberikan rasa nyaman dan aman
+                karena bersifat anonim diupayakan agar pengguna dapat
+                mengeluarkan keluh kesahnnya ataupun sarana bertukar pikiran
+                demi lebih mengenal diri sehingga diharapkan dapat
+                mengoptimalkan minat bahkan potensi yang dimiliki. Tergantung
+                bagaimana kondisi individu, jika dirasa tekanan terlalu berat
+                sampai beresiko mengancam nyawa segeralah meminta atau
+                menghubungi tenaga medis professional.
+              </p>
+            </div>
+          </div>
+
+          <!-- Fifth Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion5"></span>
+            <a href="#accordion5" id="open-accordion5" title="open">
+              Apa saja fitur Terimakisah?
+            </a>
+            <a href="#accordion" id="close-accordion5" title="close">
+              Apa saja fitur Terimakisah?
+            </a>
+            <div class="accordion-content">
+              <p class="p-accordion">
+                Saat ini Terimakisah menyediakan wadah curhat untuk seseorang di
+                masa QLC dan article edukasi mengenai QLC dan hubungannya dengan
+                kesehatan mental. Adapun rencana kedepannya Terimakisah ingin
+                memberikan fitur tentang Test MBTI, webinar mengenai karir,
+                keuangan atau pun kegiatan lainnya yang menunjang produktivitas
+                dan lebih mengenal diri sendiri.
+              </p>
+            </div>
+          </div>
+
+          <!-- sixth Accoridon Option -->
+          <div>
+            <span class="target-fix" id="accordion6"></span>
+            <a href="#accordion6" id="open-accordion6" title="open">
+              Apa saja peraturan yang wajib dipatuhi selama menggunakan
+              Terimakisah?
+            </a>
+            <a href="#accordion" id="close-accordion4" title="close">
+              Apa saja peraturan yang wajib dipatuhi selama menggunakan
+              Terimakisah?
+            </a>
+            <div class="accordion-content">
+              <p class="p-accordion">
+                Aturan ini penting dan wajib diikuti setiap pengguna demi
+                efektivitas tujuan dari web app ini. <br />
+                1. Keamanan dan kenyamanan : dilarang seperti contoh membuat
+                konten rasisme, menyudutkan suatu pihak, perundungan, membuat
+                informasi palsu, meminta-minta, menyebarkan informasi palsu
+                maupun membuat konten pengancaman. Beberapa jenis pelanggaran
+                lainya adalah melakukan spam konten, membuat konten pornografi
+                dan mengusik privasi seseorang. <br />
+                2. Privasi Sangat tidak disarankan untuk menyebarkan ID atau
+                informasi sensitif seperti nomor hp ataupun id sosial media
+                lainnya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a id="link" href="https://skilvul.com">
+        Copyright © 2023, All Right Reserved
+      </a>
+    </footer>
+  </body>
+</html>
